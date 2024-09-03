@@ -52,14 +52,6 @@ You can interact with the API using tools like Postman or curl.
 - **PUT /todos/:todoId**: Update a todo by ID.
 - **DELETE /todos/:todoId**: Delete a todo by ID.
 
-## Testing
-
-Run the tests using:
-
-```bash
-npm test
-```
-
 ## Project Source
 
 **https://roadmap.sh/projects/todo-list-api**
