@@ -10,4 +10,4 @@ const userRoute = require("./routes/userRoute");
 const todoRoute = require("./routes/todoRoute");
 app.use("/users", userRoute);
 app.use("/todos", todoRoute);
-app.listen(process.env.PORT);
+app.listen(process.env.PORT||8000);
